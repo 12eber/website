@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    margin: 0;
+    padding: 0;
+    background-image:url( "../../Documents/Unnamed Site 2/Screenshot 2024-11-06 203344.png");
+}
+
+header {
+    background-image: url( "../../Documents/Unnamed Site 2/Screenshot 2024-11-06 203344.png");
+    color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    background: white;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1em;
+    color: #555;
+}
+
+.product button {
+    background-color: whitesmoke;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-image: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
